@@ -1,0 +1,60 @@
+Link: https://www.youtube.com/watch?v=A5MF1mwmgRI
+
+extre small     small       medium      large       x-large     xx-large
+<576px          >= 576px    >=768px     >=992       >=1200px    >=1400px
+
+
+$grid-breakpoints: ( //osea  grid-sm  o 
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+Ver imagen breakpoint.png
+
+.container-fluid //ocupara todo el ancho de la pantalla 100%
+
+2 Colores ver la seccion utilitis background de la documentacion de bootstrap
+.bg-primary
+.bg-secondary
+.bg-success
+.bg-danger
+.bg-warning
+.bg-info
+.bg-light
+.bg-dark
+2.2 Para el texto usar .text-primary en ves de bg-primary
+
+
+3. Para centrar usar las clases de flexbox
+.d-flex //display-flex 
+.justify-content-center //centrar el elemnto
+
+4 Margenes
+.mb-3 //margin-botton
+.mt-3 //Margin top
+.mx-3 //margin horizontal
+.my-3 //margen vertical
+o solo m-2 //Margenes a los 4 lados
+4.1 Lo mismo para el pading
+.pb-3 //padding-botton
+.pt-3 //padding top
+.px-3 //padding horizontal
+.py-3 //padding vertical
+
+
+5 Para el fontsize
+.fs-5 //tamaño de fuente 
+5.1
+ Font weig estilo de texto
+ fw-bold texcto en negrita
+
+5.2 Para cambiar un texto en un a se p[uede poner el texto dentro de un span y aho darle las clases]
+
+
+
+6 Navbar
+    copiar directamente desde componentes > Navbar
