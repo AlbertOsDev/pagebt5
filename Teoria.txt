@@ -58,3 +58,18 @@ o solo m-2 //Margenes a los 4 lados
 
 6 Navbar
     copiar directamente desde componentes > Navbar
+6.1 Se puede agrefgar estilos en mi style.css
+    crear un id o una clase para acceder al elemento
+
+
+
+7 Agregar un slider desde componentes carrusel
+    Buscar el tamañ de las imagenes para el carrusel y que todas sean el mismo tamaño
+    Para limitar el tamaño de las img agregar en el css mio
+    acceder a .carousel-inner
+    max-height: 39rem
+
+7.1 Para el tiempo de cada imagen agregar como nuevo atributo 
+Ejemplo <div class="carousel-item active" data-bs-interval="3000">
+    data-bs-interval="3000" //Tiempo en milisegundos 3 segundos
+    se pone en el div de las imagens

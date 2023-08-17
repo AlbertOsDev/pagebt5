@@ -1,0 +1,11 @@
+/* =================
+    Slider de imagenes
+   ===================== 
+*/
+.carousel-inner {
+	max-height: 39rem;
+}
+
+.carousel-item {
+	max-height: min-content;
+}
