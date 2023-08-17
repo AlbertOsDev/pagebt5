@@ -38,6 +38,7 @@ Ver imagen breakpoint.png
 .mt-3 //Margin top
 .mx-3 //margin horizontal
 .my-3 //margen vertical
+.mx-auto Centra
 o solo m-2 //Margenes a los 4 lados
 4.1 Lo mismo para el pading
 .pb-3 //padding-botton
@@ -45,12 +46,18 @@ o solo m-2 //Margenes a los 4 lados
 .px-3 //padding horizontal
 .py-3 //padding vertical
 
+4.2 ancho
+    el ancho es w-50 width 50% los valores van de 25 - 50 -75 -100 auto
 
-5 Para el fontsize
-.fs-5 //tamaño de fuente 
+5 Para el fontsize ver en utilities spacing en la documentacion
+.fs-5 //tamaño de fuente corresponde a los titulos
+.fs-1 h1
+.fs-2 h2 etc
 5.1
  Font weig estilo de texto
  fw-bold texcto en negrita
+ 5.2 Alinear texto
+  text-center - left o raight
 
 5.2 Para cambiar un texto en un a se p[uede poner el texto dentro de un span y aho darle las clases]
 
@@ -73,3 +80,6 @@ o solo m-2 //Margenes a los 4 lados
 Ejemplo <div class="carousel-item active" data-bs-interval="3000">
     data-bs-interval="3000" //Tiempo en milisegundos 3 segundos
     se pone en el div de las imagens
+
+8 Para pner borde
+ .border-top border-3 //puede ser border-butoon left o right despues el tamano brder-3    
