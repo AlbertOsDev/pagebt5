@@ -9,3 +9,27 @@
 .carousel-item {
 	max-height: min-content;
 }
+
+
+/*=========================
+MediaQueries Pantalla SM
+================*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/*=========================
+MediaQueries Pantalla pequeñas extra small 
+================*/
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
