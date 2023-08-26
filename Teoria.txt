@@ -1,4 +1,4 @@
-Link: https://www.youtube.com/watch?v=A5MF1mwmgRI   
+Link: https://youtu.be/A5MF1mwmgRI?t=3164   
 Momento del video en que quede
 
 extre small     small       medium      large       x-large     xx-large
@@ -89,3 +89,7 @@ Ejemplo <div class="carousel-item active" data-bs-interval="3000">
 9 imagenes
  tienen dos clases
  .img-fluid la img ocupa el 100% del contenedor padre y el height auto 
+
+
+ 10 Formularios
+    Ver la seccion de form y copiar uno
